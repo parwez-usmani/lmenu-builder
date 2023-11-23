@@ -1,0 +1,33 @@
+{
+    "name": "aha/laravel-menu",
+    "description": "drag and drop menu generator like wordpress for laravel 10",
+    "keywords": ["Laravel", "Menu", "Wordpress", "Builder"],
+    "authors": [
+    	{
+            "name": "Parwez Usmani",
+            "email": "parwez@ahatechnocrat.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "8.* || 9.* || 10.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Harimayco\\Menu\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aha\\Menu\\MenuServiceProvider"
+            ],
+            "aliases": {
+                "Menu": "Aha\\Menu\\Facades\\Menu"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
