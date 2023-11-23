@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-          "Harimayco\\Menu\\": "src/"
+          "Aha\\Menu\\": "src/"
         }
     },
     "extra": {
