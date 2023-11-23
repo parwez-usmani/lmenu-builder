@@ -27,7 +27,5 @@
                 "Menu": "Aha\\Menu\\Facades\\Menu"
             }
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
